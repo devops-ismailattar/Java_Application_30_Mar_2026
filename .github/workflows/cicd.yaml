@@ -74,7 +74,8 @@ jobs:
 
       - name: build and push docker image
         uses: docker/build-push-action@v7.0.0
-        context: .
+        with:
+          context: .
           push: true
           tags: 076226033208.dkr.ecr.ap-south-1.amazonaws.com/java-app:${{github.sha}}
 
