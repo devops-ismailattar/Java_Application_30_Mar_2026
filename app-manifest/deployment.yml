@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: 076226033208.dkr.ecr.ap-south-1.amazonaws.com/java-springboot-app:d89be2880f81b2ede056943117d6fe4a5633130b
+        image: 076226033208.dkr.ecr.ap-south-1.amazonaws.com/springboot-java-app:1a2cee8b72efb89da255d4c7c7c65bcca82beffe
         ports:
         - containerPort: 8080
           #ismail
