@@ -51,7 +51,7 @@ jobs:
   build_and_push_docker_image:
     runs-on: ubuntu-latest
     permissions: 
-      id_token: write
+      id-token: write
       contents: read
     needs: build
     steps:
